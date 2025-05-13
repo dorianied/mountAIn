@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scrolling-text {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: scrolling 60s linear infinite; /* Doubled the animation duration to slow it down */
+}
+
+.animate-scrolling-text > div {
+  display: inline-flex;
+  white-space: nowrap;
+  padding-right: 2rem;
+}
+
+/* Add smooth transitions for sidebar */
+.transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}

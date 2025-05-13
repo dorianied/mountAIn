@@ -53,12 +53,6 @@ cd mountAIn
 pip install -r requirements.txt
 
 python src/main.py --location "Chamonix" --date "2025-01-14"
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repo
----
 
 
 

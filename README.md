@@ -49,16 +49,24 @@ mountAIn/
 git clone https://github.com/dorianied/mountAIn.git
 cd mountAIn
 
+---
+
 ### 2. Install dependencies
 
 pip install -r requirements.txt
+
+---
 
 ### 3. Run the assistant (example)
 
 python src/main.py --location "Chamonix" --date "2025-01-14"
 
+---
+
 ## 🤝 Contributing
 Feel free to fork the project and submit pull requests, or open an issue to discuss ideas or bugs. Contributions are very welcome!
+
+---
 
 ## 👋 About
 Created by Dorian in Amsterdam – combining AI, weather data, and a love for snow sports.
